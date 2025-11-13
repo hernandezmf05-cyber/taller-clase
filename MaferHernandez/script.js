@@ -52,3 +52,10 @@ let edad = añoNacimiento - 2024;
 //mostrar la edad que tiene
 console.log("Tienes" + edad + "años");
 
+/* sexto punto*/
+//Pedir nombre  y el apellido del usuario
+let nombre = (prompt ("Ingrese su nombre: "));
+let apellido = (prompt ("Ingrese su apellido: "));
+
+// mostrar mensaje
+console.log("Bienvenido, " + nombre + apellido);
