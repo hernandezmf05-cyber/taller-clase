@@ -71,3 +71,14 @@ let promedio= (nota1 + nota2 + nota3) / 3;
 
 //mostrar promedio
 console.log("El promedio de notas es:  " + promedio);
+
+/*octavo punto*/
+//pedir el numero de horas trabajadas en la semana y el precio que se paga por hora
+let numeroHorasTrabajadas = Number (prompt("Ingrese el numero de horas trabajadas en la semana: "));
+let precioHora = Number (prompt("Ingrese el precio de la hora trabajada: "));
+
+//calcular el salario total
+let salarioTotal = numeroHorasTrabajadas * precioHora; 
+
+//mostrar salario 
+console.log("El salario semanal es: " + salarioTotal);
