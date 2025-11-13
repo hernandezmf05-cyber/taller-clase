@@ -1,4 +1,4 @@
-/* primer punto*/
+// /* primer punto*/
 //Pedir el precio de 3 productos 
 let productoUno = Number (prompt ("Ingrese el precio del producto 1"));
 let productoDos = Number (prompt ("Ingrese el precio del producto 2"));
@@ -20,3 +20,14 @@ let areaPared= (anchoPared * altoPared);
 
 //mostrar el area de la pared 
 console.log("El area de la pared es: " + areaPared);
+
+/*tercer punto*/
+//pide el largo del ancho y el largo del protero
+let largoPotrero = Number (prompt ("Ingrese el largo del potrero: "));
+let anchoPotrero = Number (prompt ("Ingrese el ancho del potrero: "));
+
+//calcular el perimetro
+let perimetroPotrero = 2 * (largoPotrero + anchoPotrero);
+
+//mostrar el perimetro del potrero
+console.log("El perimetro del potrero es: " + perimetroPotrero);
