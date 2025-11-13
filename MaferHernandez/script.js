@@ -59,3 +59,15 @@ let apellido = (prompt ("Ingrese su apellido: "));
 
 // mostrar mensaje
 console.log("Bienvenido, " + nombre + apellido);
+
+/* septimo punto*/
+//pedir 3 notas de 0 a 5
+let nota1 = Number (prompt("Ingrese de 0 a 5, la primera nota: "));
+let nota2 = Number (prompt("Ingrese de 0 a 5, la segunda nota: "));
+let nota3 = Number (prompt("Ingrese de 0 a 5, la tercera< nota: "));
+
+//calcular el promedio 
+let promedio= (nota1 + nota2 + nota3) / 3;
+
+//mostrar promedio
+console.log("El promedio de notas es:  " + promedio);
