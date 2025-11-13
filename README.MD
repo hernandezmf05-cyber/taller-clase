@@ -1,9 +1,9 @@
 # Taller de Lógica Secuencial: Fundamentos de JavaScript
 
 ````
-Forkear el repositorio
-Hacer un commit por cada ejercicios
-Al finalizar lanzar un Pull Request
+1 - Forkear el repositorio
+2 - Hacer un commit por cada ejercicio
+3 - Al finalizar todos los ejercicios lanzar un Pull Request
 
 ````
 
