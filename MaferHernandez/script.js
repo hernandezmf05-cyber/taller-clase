@@ -42,3 +42,13 @@ let temperaturaeraturaCelsius = (temperaturaFahrenheit - 32) / 1.8;
 //mostrar el resultado de la conversion
 console.log("La temperatura en grados celsius es: " + temperaturaeraturaCelsius);
 
+/*quinto punto*/
+// Pide el año de nacimiento 
+let añoNacimiento = Number (prompt ("Ingrese su año de nacimiento: "));
+
+//calcular cuantos años tiene para el 2024 
+let edad = añoNacimiento - 2024;
+
+//mostrar la edad que tiene
+console.log("Tienes" + edad + "años");
+
