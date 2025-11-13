@@ -1,4 +1,4 @@
-// /* primer punto*/
+ /* primer punto*/
 //Pedir el precio de 3 productos 
 let productoUno = Number (prompt ("Ingrese el precio del producto 1"));
 let productoDos = Number (prompt ("Ingrese el precio del producto 2"));
@@ -31,3 +31,14 @@ let perimetroPotrero = 2 * (largoPotrero + anchoPotrero);
 
 //mostrar el perimetro del potrero
 console.log("El perimetro del potrero es: " + perimetroPotrero);
+
+/*cuarto punto*/
+//Pide la temperatura en grados °F
+let temperaturaFahrenheit = Number (prompt("Ingrese la temperatura en grados °F: "));
+
+// convertir en grados °C 
+let temperaturaeraturaCelsius = (temperaturaFahrenheit - 32) / 1.8;
+
+//mostrar el resultado de la conversion
+console.log("La temperatura en grados celsius es: " + temperaturaeraturaCelsius);
+
