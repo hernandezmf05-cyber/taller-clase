@@ -97,3 +97,17 @@ let horas= totalMinutos / 60;
 let minutos = totalMinutos % 60;
 
 console.log( totalMinutos + " minutos equivalen a " + horas + " horas y " + minutos + " minutos")
+
+/* punto once*/
+let precioOriginal = Number (prompt("Ingrese el precio del producto : "));
+let descuento = Number (prompt("Ingrese el porcenataje de descuento del producto : "));
+
+// calcular el descuento
+let vlrDecuento = precioOriginal * descuento / 100;
+
+//calcular el precio final 
+let precioFinal = precioOriginal - vlrDecuento;
+
+console.log("El precio final del producto es: " + precioFinal);
+
+
