@@ -122,5 +122,20 @@ let precioTotal = precioBase + IVA;
 console.log("El IVA (19%): " + IVA);
 console.log("El precio total con IVA es: " + precioTotal);
 
+// /*punto trece*/
+let  capitalInicial = Number (prompt("Ingrese el capital inicial: "));
+let  tasaInteres = Number (prompt("Ingrese la tasa de interes anual (%): "));
+let  años = Number (prompt("Ingrese el numero de años: "));
+
+// calcula la tasa del interes simple
+let interes = capitalInicial * (tasaInteres/100) * años;
+
+//calcular el capital final 
+let capitalFinal = capitalInicial + interes;
+
+console.log("Interés generado: $" + interes);
+console.log("Capital final después de " + años + " años: $" + capitalFinal);
+
+
 
 
