@@ -165,6 +165,14 @@ let pesos = dolares * tasaCambio;
 
 console.log("$" + dolares + " USD equivalen a $" + pesos + " COP");
 
+/*punto 17*/
+let libras = Number(prompt("Ingresa el peso del paquete en libras (lb):"));
+
+let kilogramos = libras * 0.453592;
+
+console.log(libras + " lb equivalen a " + kilogramos + " kg");
+
+
 
 
 
