@@ -156,6 +156,16 @@ apellido = temp;
 console.log("Nombre: " + nombre);
 console.log("Apellido: " + apellido);
 
+/*punto 16*/
+let dolares = Number(prompt("Ingresa la cantidad en dólares (USD):"));
+
+let tasaCambio = 3900;
+
+let pesos = dolares * tasaCambio;
+
+console.log("$" + dolares + " USD equivalen a $" + pesos + " COP");
+
+
 
 
 
