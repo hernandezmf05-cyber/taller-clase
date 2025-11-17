@@ -144,6 +144,22 @@ let area = base * altura / 2;
 
 console.log("El área del triángulo es: " + area);
 
+/* punto quince*/
+let nombre = prompt("Ingresa el nombre del usuario:");
+let apellido = prompt("Ingresa el apellido del usuario:");
+
+//variable temporal
+let temp = nombre;
+nombre = apellido;
+apellido = temp;
+
+console.log("Nombre: " + nombre);
+console.log("Apellido: " + apellido);
+
+
+
+
+
 
 
 
