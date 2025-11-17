@@ -198,6 +198,16 @@ let totalRefrescos = asistentes * refrescosPorPersona;
 
 console.log("Se necesitan " + totalRefrescos + " refrescos para " + asistentes + " asistentes.");
 
+/*punto 20*/
+let distancia = Number(prompt("Ingresa la distancia recorrida (en km):"));
+let tiempo = Number(prompt("Ingresa el tiempo que tomó (en horas):"));
+
+// Calcula la velocidad promedio
+let velocidad = distancia / tiempo;
+
+
+console.log("La velocidad promedio del auto es: " + velocidad + " km/h");
+
 
 
 
