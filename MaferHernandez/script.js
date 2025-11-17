@@ -172,6 +172,23 @@ let kilogramos = libras * 0.453592;
 
 console.log(libras + " lb equivalen a " + kilogramos + " kg");
 
+/*punto 18*/
+let numero = Number(prompt("Ingresa un número de dos cifras (ej. 47):"));
+
+// Convierte el número a texto
+let texto = String(numero);
+
+// Separa los dígitos como caracteres
+let primerDigito = Number(texto[0]);
+let segundoDigito = Number(texto[1]);
+
+// Suma los dígitos
+let suma = primerDigito + segundoDigito;
+
+console.log("La suma de los dígitos de " + numero + " es: " + suma);
+
+
+
 
 
 
