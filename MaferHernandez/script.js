@@ -110,4 +110,17 @@ let precioFinal = precioOriginal - vlrDecuento;
 
 console.log("El precio final del producto es: " + precioFinal);
 
+/* punto doce*/
+let  precioBase = Number (prompt("Ingrese el precio base del producto (SIN IVA) : "));
+
+// calcular el iva 
+let IVA = precioBase * 0.19;
+
+// calcular el precio total 
+let precioTotal = precioBase + IVA;
+
+console.log("El IVA (19%): " + IVA);
+console.log("El precio total con IVA es: " + precioTotal);
+
+
 
