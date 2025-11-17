@@ -122,7 +122,7 @@ let precioTotal = precioBase + IVA;
 console.log("El IVA (19%): " + IVA);
 console.log("El precio total con IVA es: " + precioTotal);
 
-// /*punto trece*/
+/*punto trece*/
 let  capitalInicial = Number (prompt("Ingrese el capital inicial: "));
 let  tasaInteres = Number (prompt("Ingrese la tasa de interes anual (%): "));
 let  años = Number (prompt("Ingrese el numero de años: "));
@@ -135,6 +135,17 @@ let capitalFinal = capitalInicial + interes;
 
 console.log("Interés generado: $" + interes);
 console.log("Capital final después de " + años + " años: $" + capitalFinal);
+
+/*punto catorce*/
+let base = Number(prompt("Ingresa la base del triángulo:"));
+let altura = Number(prompt("Ingresa la altura del triángulo:"));
+
+let area = base * altura / 2;
+
+console.log("El área del triángulo es: " + area);
+
+
+
 
 
 
