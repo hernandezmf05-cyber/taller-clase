@@ -187,6 +187,17 @@ let suma = primerDigito + segundoDigito;
 
 console.log("La suma de los dígitos de " + numero + " es: " + suma);
 
+/*punto 19*/
+let asistentes = Number(prompt("Ingresa el número de asistentes al evento:"));
+
+// Cada asistente tomará 3 refrescos
+let refrescosPorPersona = 3;
+
+// Calcula el total de refrescos necesarios
+let totalRefrescos = asistentes * refrescosPorPersona;
+
+console.log("Se necesitan " + totalRefrescos + " refrescos para " + asistentes + " asistentes.");
+
 
 
 
